@@ -40,22 +40,22 @@ h2 {
 }
 
 .MainImageBody {
+  position: relative;
   width: 1150px;
   height: 500px;
   background-image: url(../resources/MainImage.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 150px;
-
-  /* padding-left: 40px; */
 }
 
 .MainImageText {
+  position: absolute;
   color: aliceblue;
   text-align: left;
   width: 430px;
-  padding-left: 40px;
-  padding-top: 379px;
+  left: 40px;
+  bottom: 40px;
 }
 
 .MainImageText p {
@@ -109,4 +109,65 @@ h2 {
   letter-spacing: -0.03em;
   color: #ad1818;
   text-decoration: none;
+}
+
+.LinkAllProjects {
+  display: block;
+  width: 100%;
+  height: 153px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 58px;
+  font-family: "Manrope";
+  line-height: 153px;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-decoration: none;
+  color: red;
+  cursor: pointer;
+}
+
+.LinkAllProjects:hover {
+  color: white;
+  background-color: #ad1818;
+}
+
+.section_uslugi {
+  background-color: #121212;
+  width: 1400px;
+  height: 1844px;
+  margin: 0 auto;
+}
+
+.container_uslugi {
+  padding-top: 151px;
+  padding-left: 127px;
+}
+
+.container_uslugi_text {
+  color: #ffffff;
+  margin-bottom: 34px;
+}
+
+.UslugaImage {
+  margin-bottom: 15px;
+}
+
+.usluga__text {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+}
+
+.usluga {
+  margin-bottom: 60px;
+  width: 1150px;
+}
+
+.usluga:nth-last-child(1) {
+  margin-bottom: 150px;
 }
