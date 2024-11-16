@@ -12,6 +12,42 @@ width: 1150px; */
   margin: 0 auto;
 }
 
+.NavigationSection {
+  width: 1150px;
+  height: 25px;
+  margin-top: 32.82px;
+  margin-bottom: 70px;
+}
+
+.NavigationLink {
+  display: inline;
+  width: 126.83px;
+  height: 21.42px;
+  margin-right: 558.46px;
+}
+
+.NavigationMenu {
+  display: inline;
+}
+
+.NavigationMenuLink {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #121212;
+  letter-spacing: -0.03em;
+  margin-right: 60px;
+  size: 18px;
+}
+
+.NavigationMenuLinkActive {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.NavigationMenuLink:nth-last-child(1) {
+  margin-right: 0;
+}
+
 .h {
   color: black;
   line-height: 60px;
@@ -21,7 +57,6 @@ width: 1150px; */
   width: 956px;
   height: 120px;
   margin-bottom: 30px;
-  margin-top: 128px;
 }
 
 h1 {
