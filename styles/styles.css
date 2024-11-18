@@ -1,15 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Manrope";
-  background: #f5f5f5;
   letter-spacing: -0.03em;
-
-  /* margin-left: 125px;
-width: 1150px; */
 }
 
 .container {
-  width: 1150px;
+  width: 1400px;
   margin: 0 auto;
+  background: #ffffff;
 }
 
 .NavigationSection {
@@ -65,6 +66,7 @@ h1 {
   font-size: 20px;
   font-weight: 400;
   color: black;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -98,7 +100,7 @@ h2 {
   line-height: 27.32px;
 }
 
-.onas {
+#AboutUsSection {
   margin-bottom: 30px;
   width: 1048px;
 }
@@ -174,7 +176,7 @@ h2 {
   background-color: #ad1818;
 }
 
-.section_uslugi {
+#ServicesSection {
   background-color: #121212;
   width: 1400px;
   height: 1844px;
@@ -209,5 +211,33 @@ h2 {
 }
 
 .usluga:nth-last-child(1) {
+  margin-bottom: 150px;
+}
+
+#FlatSection {
+  position: relative;
+  height: 717px;
+  background-image: url(../resources/Flat_Image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.FlatText {
+  position: absolute;
+  bottom: 60px;
+  left: 125px;
+  width: 443px;
+  height: 82px;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+#ContactsSection {
+  padding-top: 151px;
+  padding-left: 127px;
   margin-bottom: 150px;
 }

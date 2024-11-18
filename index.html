@@ -1,103 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Metrika</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Metrika</title>
-  <link rel="stylesheet" href="styles/reset.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles/styles.css" />
-</head>
-
-<body>
-  <div class="container">
-
-    <div class="NavigationSection">
-      <a class="NavigationLink" href="index.html">
-        <img class="NavigationLinkImage" src="resources/MetrikaLogo.png" alt="Логотип компании">
-      </a>
-      <div class="NavigationMenu">
-        <a class="NavigationMenuLink NavigationMenuLinkActive" href="/">о нас</a>
-        <a class="NavigationMenuLink" href="/">проекты</a>
-        <a class="NavigationMenuLink" href="/">услуги</a>
-        <a class="NavigationMenuLink" href="/">контакты</a>
+  <body>
+    <div class="container">
+      <div class="NavigationSection">
+        <a class="NavigationLink" href="index.html">
+          <img
+            class="NavigationLinkImage"
+            src="resources/MetrikaLogo.png"
+            alt="Логотип компании"
+          />
+        </a>
+        <div class="NavigationMenu">
+          <a
+            class="NavigationMenuLink NavigationMenuLinkActive"
+            href="#AboutUsSection"
+            >о нас</a
+          >
+          <a class="NavigationMenuLink" href="#ProjectsSection">проекты</a>
+          <a class="NavigationMenuLink" href="#ServicesSection">услуги</a>
+          <a class="NavigationMenuLink" href="#ContactsSection">контакты</a>
+        </div>
       </div>
-    </div>
 
-    <div class="h">
-      <h>Современные и стильные интерьеры для комфортной жизни</h>
-    </div>
+      <div class="h">
+        <h>Современные и стильные интерьеры для комфортной жизни</h>
+      </div>
 
-    <div class="MainImageBody">
-      <div class="MainImageText">
-        <p>
-          Мы - команда квалифицированных дизайнеров и архитекторов,
-          занимающихся разработкой и реализацией дизайн-проектов
+      <div class="MainImageBody">
+        <div class="MainImageText">
+          <p>
+            Мы - команда квалифицированных дизайнеров и архитекторов,
+            занимающихся разработкой и реализацией дизайн-проектов
+          </p>
+        </div>
+      </div>
+
+      <div id="AboutUsSection">
+        <h1>О НАС</h1>
+        <h2>
+          Студия основана в 2011 году. Полностью отдаемся проектированию и
+          реализации интерьеров. К нам обращаются за уютом, индивидуальными
+          решениями и практичностью. Находим конструктивные решения для каждого
+          интерьера, вплоть до каждой детали — нацелены на результат.
+        </h2>
+        <button class="btn">Посмотреть услуги</button>
+      </div>
+
+      <div id="ProjectsSection">
+        <ul class="items">
+          <h1>ПРОЕКТЫ</h1>
+          <li class="item">
+            <img
+              class="Project__Image"
+              src="resources/Pravoberejnyi.jpg"
+              alt=""
+              srcset=""
+            />
+            <p class="Project__Text">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
+            <a class="Project__Ref" href="">Подробнее →</a>
+          </li>
+
+          <li class="item">
+            <img
+              class="Project__Image"
+              src="resources/NorvejskiiPark.jpg"
+              alt=""
+              srcset=""
+            />
+            <p class="Project__Text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
+            <a class="Project__Ref" href="">Подробнее →</a>
+          </li>
+
+          <li class="item">
+            <img
+              class="Project__Image"
+              src="resources/SosnovskieOzera.jpg"
+              alt=""
+              srcset=""
+            />
+            <p class="Project__Text">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
+            <a class="Project__Ref" href="">Подробнее →</a>
+          </li>
+          <a class="LinkAllProjects" href="index.html">Смотреть все проекты</a>
+        </ul>
+      </div>
+
+      <div id="ServicesSection">
+        <ul class="container_uslugi">
+          <h1 class="container_uslugi_text">УСЛУГИ</h1>
+
+          <li class="usluga">
+            <img
+              class="UslugaImage"
+              src="resources/PlanirovochnoeReshenie.jpg"
+              alt="Планировочное решение"
+            />
+            <p class="usluga__text">Планировочное решение — от 2500₽/м²</p>
+          </li>
+
+          <li class="usluga">
+            <img
+              class="UslugaImage"
+              src="resources/DizainProekt.jpg"
+              alt="Дизайн-проект"
+            />
+            <p class="usluga__text">Дизайн-проект — от 3000₽/м²</p>
+          </li>
+
+          <li class="usluga">
+            <img
+              class="UslugaImage"
+              src="resources/AvtorskiiNadzor.jpg"
+              alt="Авторский надзор"
+            />
+            <p class="usluga__text">Авторский надзор — от 30 000₽ в месяц</p>
+          </li>
+
+          <li class="usluga">
+            <img
+              class="UslugaImage"
+              src="resources/Komplektacia.jpg"
+              alt="Комплектация"
+            />
+            <p class="usluga__text">
+              Комплектация — 5% от стоимости спецификации
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="FlatSection">
+        <p class="FlatText">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+      </div>
+
+      <div id="ContactsSection">
+        <img
+          style="margin-bottom: 12px"
+          src="resources/PhoneIcon.png"
+          alt="Телефон"
+        />
+        <h1>Контакты</h1>
+        <p style="font-size: 60px; line-height: 60px; margin-bottom: 30px">
+          +7 935 895-45-35
+        </p>
+        <p
+          style="
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 60px;
+            color: #121212;
+            opacity: 0.5;
+            text-decoration: underline;
+          "
+        >
+          hello@mail.com
         </p>
       </div>
     </div>
-
-    <div class="onas">
-      <h1>О НАС</h1>
-      <h2>
-        Студия основана в 2011 году. Полностью отдаемся проектированию и
-        реализации интерьеров. К нам обращаются за уютом, индивидуальными
-        решениями и практичностью. Находим конструктивные решения для каждого
-        интерьера, вплоть до каждой детали — нацелены на результат.
-      </h2>
-      <button class="btn">Посмотреть услуги</button>
-    </div>
-    <ul class="items">
-      <h1>ПРОЕКТЫ</h1>
-      <li class="item">
-        <img class="Project__Image" src="resources/Pravoberejnyi.jpg" alt="" srcset="" />
-        <p class="Project__Text">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
-        <a class="Project__Ref" href="">Подробнее →</a>
-      </li>
-
-      <li class="item">
-        <img class="Project__Image" src="resources/NorvejskiiPark.jpg" alt="" srcset="" />
-        <p class="Project__Text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
-        <a class="Project__Ref" href="">Подробнее →</a>
-      </li>
-
-      <li class="item">
-        <img class="Project__Image" src="resources/SosnovskieOzera.jpg" alt="" srcset="" />
-        <p class="Project__Text">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
-        <a class="Project__Ref" href="">Подробнее →</a>
-      </li>
-      <a class="LinkAllProjects" href="index.html">Смотреть все проекты</a>
-    </ul>
-  </div>
-  <div class="section_uslugi">
-    <ul class="container_uslugi">
-      <h1 class="container_uslugi_text">УСЛУГИ</h1>
-
-      <li class="usluga">
-        <img class="UslugaImage" src="resources/PlanirovochnoeReshenie.jpg" alt="Планировочное решение" />
-        <p class="usluga__text">Планировочное решение — от 2500₽/м²</p>
-      </li>
-
-      <li class="usluga">
-        <img class="UslugaImage" src="resources/DizainProekt.jpg" alt="Дизайн-проект" />
-        <p class="usluga__text">Дизайн-проект — от 3000₽/м²</p>
-      </li>
-
-      <li class="usluga">
-        <img class="UslugaImage" src="resources/AvtorskiiNadzor.jpg" alt="Авторский надзор" />
-        <p class="usluga__text">Авторский надзор — от 30 000₽ в месяц</p>
-      </li>
-
-      <li class="usluga">
-        <img class="UslugaImage" src="resources/Komplektacia.jpg" alt="Комплектация" />
-        <p class="usluga__text">
-          Комплектация — 5% от стоимости спецификации
-        </p>
-      </li>
-    </ul>
-  </div>
-</body>
-
+  </body>
 </html>
