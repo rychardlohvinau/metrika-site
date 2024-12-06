@@ -103,7 +103,7 @@ h2 {
 }
 
 #AboutUsSection {
-  margin-bottom: 30px;
+  margin-bottom: 152px;
   width: 1048px;
 }
 
@@ -112,7 +112,7 @@ h2 {
   height: 67px;
   border-radius: 5px;
   border: none;
-  margin-top: 20px;
+  margin-top: 27px;
   background-color: #ad1818;
   font-family: "Manrope";
   font-size: 20px;
@@ -124,8 +124,8 @@ h2 {
   margin-bottom: 150px;
 }
 
-.item {
-  margin-top: 90px;
+.ProjectsSection {
+  padding-top: 61px;
 }
 
 .Project__Image {
